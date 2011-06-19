@@ -25,6 +25,7 @@ public class Square
 	}
 	public void testThis()
 	{
-		
+			System.out.println("Width " + getWidth());
+			System.out.println("X " + getX()+ " , " +"Y " + getY());
 	}
 }
