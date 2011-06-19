@@ -66,8 +66,8 @@ public class Disk
 			 final double a = radius + Game.getSDisks().get(i).getRadius();
 			 final double dx = x - Game.getSDisks().get(i).getX();
 			 final double dy = y - Game.getSDisks().get(i).getY();
-			 System.out.println("First" + a * a);
-			 System.out.println("Second" + dx * dx + dy * dy);
+			 //System.out.println("First" + a * a);
+			 //System.out.println("Second" + dx * dx + dy * dy);
 			 if ( a * a > (dx * dx + dy * dy))
 			 {
 				 Game.addSDisk(x,y,radius);
